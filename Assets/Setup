@@ -1,0 +1,50 @@
+Install inquirer
+
+Install Mysql
+
+npm start;
+Prompts -
+What would you like to do? (Use arrow keys)
+View All employees
+    Lists all employees
+View All Employees By department
+View All Employees By Manager (Bonus)
+Add An Employee
+    Whats is the employees first name?
+    What is the employees last name?
+    What is the employees department?
+        Accounting
+        Legal
+        Finance
+        Development Team
+
+    What is the employees role?
+        Salesperson
+        Lawyer
+        Engineering
+        Finance
+        
+    Who is the Employees manager?
+        List of Managers
+Remove An Employee(Bonus)
+Update Employee role
+Update Employee Manager
+
+
+
+
+Need a file containing functions performing specific SQL queries
+Could a constructor function or a class be helpful for organizing these?
+
+You will need to perform a variety of SQL JOINS
+Review this weeks activities for refresher
+
+You may wish to include a `seed.sql` file to pre-populate your database.
+
+The command-line application should allow users to:
+
+  * Add departments, roles, employees
+
+  * View departments, roles, employees
+
+  * Update employee roles
