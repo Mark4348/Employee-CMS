@@ -6,7 +6,7 @@ let connection = mysql.createConnection({
     port: 3306,
     user: "root",
     password: "Iloveramen123!",
-    database: "greatbay"
+    database: "employeecms"
 });
 
 connection.connect(function(err) {
@@ -21,6 +21,10 @@ function start() {
             name: "welcomeMenu",
             type:"list",
             message:"Welcome to your employee Control Management System, what would you like to do?",
-            choices: ["Test1", "Test2", "Test3"]
+            choices: ["View All Employees",
+                "Add An Employee",
+             "View All Employees By Department",
+              "Update Employee Role",
+                "Update Employee Manager"]
         })
 }
