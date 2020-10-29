@@ -70,7 +70,7 @@ How do you deliver this? Here are some guidelines:
 
 ### Hints
 
-* You may wish to include a `seed.sql` file to pre-populate your database. This will make development of individual features much easier.
+* You may wish to include a `seed.sql` file to pre-populate your database. This will make development of individual features much eas ier.
 
 * Focus on getting the basic functionality completed before working on more advanced features.
 
