@@ -47,7 +47,7 @@ function start() {
                 //updateEmployeeRole();
             }
             else{
-                connection.end();
+                connection.end()
             }
         });
 }
@@ -58,6 +58,7 @@ function viewAllEmployees() {
     connection.query("SELECT * FROM employees", function(err, results){
         console.table(results);
         if (err) throw err;
+        start();
     })
 }
 function viewAllEmployeesByDepartment() {
@@ -67,7 +68,10 @@ function viewAllEmployeesByDepartment() {
     })
 }
 
+// function updateEmployeeRole(){
+//     console.log("")
 
+// }
 
 
 //function to add Employees
